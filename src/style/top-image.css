@@ -1,0 +1,42 @@
+
+.body {
+    background-image: url('../icon/background.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.top-image {
+    overflow: hidden;
+}
+.top-image-inner {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    text-align: center;
+}
+
+.welcomeDiv {
+    position: relative;
+    margin-left: -55px;
+    top: 20%;
+    min-height: 1;
+}
+.welcome {
+    color: aliceblue;
+    font-size: 10vh;
+}
+.welcomeDiv > hr {
+    width: 20vw;
+}
+
+.sloganDiv {
+    position: relative;
+    top: 20%;
+    transform: translateY(-20%);
+    min-height: 1;
+}
+.slogan {
+    color: aliceblue;
+    font-size: 5vh;
+}
