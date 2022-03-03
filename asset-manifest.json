@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/lonelyhouse/static/css/main.073c9b0a.css",
-    "main.js": "/lonelyhouse/static/js/main.7d62d36f.js",
+    "main.css": "/lonelyhouse/static/css/main.04a8dc93.css",
+    "main.js": "/lonelyhouse/static/js/main.a1a3f812.js",
     "static/js/787.dadd8c94.chunk.js": "/lonelyhouse/static/js/787.dadd8c94.chunk.js",
-    "static/media/logo.svg": "/lonelyhouse/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/background.jpg": "/lonelyhouse/static/media/background.e4c6c2fb8455a84e65fd.jpg",
+    "static/media/home.svg": "/lonelyhouse/static/media/home.00fa66b426b0a4be82c0bb64f39c9610.svg",
     "index.html": "/lonelyhouse/index.html",
-    "main.073c9b0a.css.map": "/lonelyhouse/static/css/main.073c9b0a.css.map",
-    "main.7d62d36f.js.map": "/lonelyhouse/static/js/main.7d62d36f.js.map",
+    "main.04a8dc93.css.map": "/lonelyhouse/static/css/main.04a8dc93.css.map",
+    "main.a1a3f812.js.map": "/lonelyhouse/static/js/main.a1a3f812.js.map",
     "787.dadd8c94.chunk.js.map": "/lonelyhouse/static/js/787.dadd8c94.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.7d62d36f.js"
+    "static/css/main.04a8dc93.css",
+    "static/js/main.a1a3f812.js"
   ]
 }
