@@ -1,15 +1,16 @@
 import React from "react";
 import '../style/header.css'
 import home from '../icon/home.svg';
+import { Link } from "react-router-dom";
 
 export class Header extends React.Component {
     constructor (props) {
         super(props)
         this.state = {
             list: [
-                ['文章', ''],
-                ['自省', ''],
-                ['散心', '']
+                ['文章', '/lonelyhouse/page'],
+                ['自省', '/lonelyhouse/alone'],
+                ['散心', '/lonelyhouse/relax']
             ]
         }
     }
@@ -18,10 +19,10 @@ export class Header extends React.Component {
         return (
             <header className="headerLine">
                 <div className="header-home">
-                    <img alt="Home" src={home}></img>
+                    <Link to='/lonelyhouse'><img alt="Home" src={home} ></img></Link>
                 </div>
                 <ul className="header-page">
-                    {this.state.list.map((item, index) => <li className="header-page-item" key={index}>{item[0]}</li>)}
+                    {this.state.list.map((item, index) => <Link className="header-page-item" key={index} to={item[1]}>{item[0]}</Link>)}
                 </ul>
                 <img alt="myGithub" src={home} className="header-github"></img>
             </header>

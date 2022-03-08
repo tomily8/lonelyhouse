@@ -7,7 +7,9 @@
     align-items: center;
     justify-content: space-around;
     height: 10vh;
-    background-color: #010101;
+    background-color: rgba(100, 100, 100, 0.3);
+
+    z-index: 10;
 }
 
 .header-home {
@@ -16,7 +18,11 @@
     flex: 1;
 }
 
-.header-home > img {
+.header-page a {
+    text-decoration: none;
+}
+
+.header-home img {
     height: 6vh;
     width: 6vh;
     transform: translateY(15%);
@@ -33,7 +39,14 @@
 .header-page-item {
     font-size: 20px;
     font-weight: 1000;
+    border: 10px solid transparent;
+    border-radius: 3px;
     color: #fff8eb;
+}
+
+.header-page-item:hover {
+    cursor: pointer;
+    background-color: #aaa;
 }
 
 .header-github {

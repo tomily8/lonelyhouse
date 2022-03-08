@@ -1,0 +1,65 @@
+.vditor-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    flex-direction: column;
+    margin-top: 5vh;
+}
+
+.vditor-container header {
+    margin-bottom: 8vh;
+    max-width: 60%;
+}
+.vditor-container header > span {
+    color: aliceblue;
+    font-size: 4rem;
+    font-weight: 500;
+}
+.vditor-container header .tags {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3vh;
+    color: cornsilk;
+}
+.tags {
+    font-family:"yu100";
+}
+.tags .tag {
+    font-size: 1rem;
+    color: #000;
+    margin-right: 10px;
+    background-color: #aaa;
+    border-radius: 1rem;
+    padding: 1rem 1rem;
+}
+.tags .tag:hover {
+    background-color: rgb(114, 226, 226);
+    cursor: pointer;
+}
+
+.tags .tagTime {
+    font-size: 1rem;
+    background-color: #aaa;
+    border-radius: 1rem;
+    padding: 1rem 1rem;
+    cursor: default;
+}
+
+.vditor {
+    max-width: 80vw;
+}
+.vditor .vditor-toolbar--hide {
+    display: none;
+}
+.vditor pre {
+    padding: 10px 10px !important;
+}
+.vditor h1, .vditor h2, .vditor h3, .vditor h4, .vditor h5, .vditor h6{
+    color: aliceblue !important;
+}
+
+pre.vditor-reset {
+    opacity: 1 !important;
+    cursor:default !important;
+}

@@ -1,0 +1,25 @@
+.chatMenu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 80vw;
+    margin: 0;
+    padding: 10px 10px;
+}
+
+.chatShow {
+    display: flex;
+    justify-content:left;
+    width: 100%;
+}
+
+.chatList {
+    width: 100%;
+    background-color: #aaa;
+    min-height: 8vh;
+    padding: 1vh;
+    margin-top: 2vh;
+    border-radius: 1vh;
+    font-size: 1.2rem;
+}

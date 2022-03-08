@@ -21,8 +21,16 @@
     margin-left: -55px;
     top: 20%;
     min-height: 1;
+    
 }
 .welcome {
+    /* 不可选中 */
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
     color: aliceblue;
     font-size: 10vh;
 }
@@ -37,6 +45,13 @@
     min-height: 1;
 }
 .slogan {
+    /* 不可选中 */
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
     color: aliceblue;
     font-size: 5vh;
 }
