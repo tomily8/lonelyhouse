@@ -6,6 +6,7 @@ import {ArticleList} from './component/articleList'
 import {Article} from './component/article'
 import {SingleComment} from './component/singleComment';
 import {BrowserRouter, Routes, Route } from 'react-router-dom'
+import { Connection } from './component/connection';
 
 
 
@@ -66,6 +67,7 @@ function Relax () {
   return (
     <div>
       <Header />
+      <Connection></Connection>
     </div>
   )
 }

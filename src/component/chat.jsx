@@ -17,6 +17,8 @@ export default class Chat extends React.Component {
 
     componentDidMount() {
         const that = this
+        // 生成需要的输入框组件
+        // eslint-disable-next-line react/no-direct-mutation-state
         this.state.editor = new Vditor('chatMenu', {
             "height": 360,
             "width":"100%",
